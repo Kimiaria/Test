@@ -61,7 +61,9 @@ export default function Rewards({ xp, completed }) {
               className={styles.sealItem + (count === 0 ? ' ' + styles.unearned : '')}
               style={{ '--house-accent': house.accent }}
             >
-              <img src={house.seal} alt={house.label} className={styles.seal} />
+              <div className={styles.sealCircle}>
+                <img src={house.seal} alt={house.label} className={styles.seal} />
+              </div>
               <p className={styles.sealName + ' small-caps'}>{house.label}</p>
               <p className={styles.sealCount}>{count}</p>
             </div>

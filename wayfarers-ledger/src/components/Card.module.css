@@ -2,7 +2,7 @@
 .scene {
   perspective: 1200px;
   width: 300px;
-  height: 420px;
+  height: 440px;
   cursor: pointer;
   user-select: none;
 }
@@ -114,7 +114,7 @@
 /* ── Card front ────────────────────────────────────────── */
 .front {
   background: var(--ink);
-  border: 1px solid var(--bronze);
+  border: 1px solid var(--house-accent, var(--bronze));
   transform: rotateY(180deg);
   display: flex;
   align-items: center;
@@ -142,18 +142,20 @@
 }
 
 .sealWrap {
-  width: 160px;
-  height: 160px;
+  width: 168px;
+  height: 168px;
+  border-radius: 50%;
+  overflow: hidden;
   display: flex;
   align-items: center;
   justify-content: center;
+  box-shadow: 0 4px 24px rgba(0,0,0,0.7);
 }
 
 .seal {
   width: 100%;
   height: 100%;
-  object-fit: contain;
-  filter: drop-shadow(0 2px 12px rgba(0,0,0,0.6));
+  object-fit: cover;
 }
 
 .dividerRow {
@@ -193,8 +195,9 @@
   align-items: center;
   justify-content: center;
   flex: 1;
-  gap: 32px;
+  gap: 20px;
   padding: 24px;
+  min-height: 0;
 }
 
 .drawHint {
