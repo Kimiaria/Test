@@ -1,0 +1,64 @@
+/* ── Design tokens ─────────────────────────────────────── */
+:root {
+  --ink:       #0d0b0a;
+  --vellum:    #e8dcc0;
+  --oxblood:   #4c2315;
+  --bronze:    #79501f;
+  --ember:     #b5832f;
+
+  /* House accents */
+  --longing:   #5c2a25;
+  --stillness: #1e2d40;
+  --hunger:    #6b4a10;
+  --folly:     #1e3a28;
+  --devotion:  #3a1f38;
+
+  --font-display: 'Cormorant', Georgia, serif;
+  --font-body:    'EB Garamond', Georgia, serif;
+}
+
+/* ── Reset / base ──────────────────────────────────────── */
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html, body, #root {
+  height: 100%;
+}
+
+body {
+  background: var(--ink);
+  color: var(--vellum);
+  font-family: var(--font-body);
+  font-size: 17px;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100dvh;
+  max-width: 480px;
+  margin: 0 auto;
+}
+
+/* ── Utility ───────────────────────────────────────────── */
+.small-caps {
+  font-family: var(--font-display);
+  font-variant: small-caps;
+  letter-spacing: 0.18em;
+  font-weight: 700;
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  white-space: nowrap;
+}

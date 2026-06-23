@@ -1,0 +1,130 @@
+export const HOUSES = {
+  longing:   { label: 'Longing',   accent: 'var(--longing)',   seal: '/seal-longing.png' },
+  stillness: { label: 'Stillness', accent: 'var(--stillness)', seal: '/seal-stillness.png' },
+  hunger:    { label: 'Hunger',    accent: 'var(--hunger)',    seal: '/seal-hunger.png' },
+  folly:     { label: 'Folly',     accent: 'var(--folly)',     seal: '/seal-folly.png' },
+  devotion:  { label: 'Devotion',  accent: 'var(--devotion)',  seal: '/seal-devotion.png' },
+};
+
+export const QUESTS = [
+  {
+    id: 'q01', house: 'longing',
+    title: 'The Letter You Never Sent',
+    body: 'Write three sentences you have never said aloud. Not because they are difficult — because the days kept moving. Read them to each other over whatever is left in your glasses. Keep the paper somewhere you will find it in a year.',
+    isNew: true,
+  },
+  {
+    id: 'q02', house: 'stillness',
+    title: 'Seven Minutes, Lights Off',
+    body: 'Sit together in the dark — sofa, floor, wherever. No phones. No agenda. Just the ambient sounds of the house settling around you. When seven minutes are up, one of you names the single thought that rose and would not leave.',
+    isNew: false,
+  },
+  {
+    id: 'q03', house: 'hunger',
+    title: 'The £20 Picnic',
+    body: 'Set a strict twenty-pound budget. Walk the nearest shop together and build the most considered spread you can. Eat it on the kitchen floor. The constraint is the point.',
+    isNew: false,
+  },
+  {
+    id: 'q04', house: 'folly',
+    title: 'Mid-Washing-Up Slow Dance',
+    body: 'One of you picks a song — something neither of you has played in years. Play it while the dishes are still in the rack. Dance on the tiles. Badly. The bar is on the floor and that is the entire joke.',
+    isNew: false,
+  },
+  {
+    id: 'q05', house: 'devotion',
+    title: 'The Voice Note',
+    body: 'Record a voice note — two minutes, no re-takes — about one specific thing you love about them right now. Not in general. Something from this week. Something small. Send it while you are both still in the room.',
+    isNew: true,
+  },
+  {
+    id: 'q06', house: 'longing',
+    title: 'The Map of Before',
+    body: 'Name a place you both loved before the children came. Describe it to each other as if the other person was never there. Then plan the return, even if the plan is only words for now.',
+    isNew: false,
+  },
+  {
+    id: 'q07', house: 'stillness',
+    title: 'One Chapter Aloud',
+    body: 'Read one chapter of anything to each other — a novel, a long article, the back of something absurd. The reader reads. The listener only listens. Switch halfway if you like.',
+    isNew: false,
+  },
+  {
+    id: 'q08', house: 'hunger',
+    title: 'The Recipe Neither of You Owns',
+    body: 'Find a recipe for something neither of you has cooked. Make it together tonight, even if tonight is eleven pm. Eat it standing at the counter.',
+    isNew: false,
+  },
+  {
+    id: 'q09', house: 'folly',
+    title: 'The Bad Film, Fully Committed',
+    body: 'Find the worst-reviewed film on whatever you subscribe to. Watch the first thirty minutes with complete sincerity — no ironic commentary, no phones. If it becomes genuinely good you are allowed to stay.',
+    isNew: false,
+  },
+  {
+    id: 'q10', house: 'devotion',
+    title: 'What You Noticed',
+    body: 'Take turns completing this sentence: "This week I noticed you—" It must be specific. It must be true. Do it until you run out.',
+    isNew: true,
+  },
+  {
+    id: 'q11', house: 'longing',
+    title: 'The Unfinished Dream',
+    body: 'Describe something you quietly stopped wanting because life moved on. Not with grief — with curiosity. Ask each other if it is really gone or only sleeping.',
+    isNew: false,
+  },
+  {
+    id: 'q12', house: 'stillness',
+    title: 'Night Walk Without Destination',
+    body: 'After the children are asleep, go outside together. Walk for twenty minutes. No route. No purpose. Let the neighbourhood be strange and small at that hour.',
+    isNew: false,
+  },
+  {
+    id: 'q13', house: 'hunger',
+    title: 'The Midnight Toastie',
+    body: 'Make the most elaborate toasted sandwich you can from what is already in the house. Sit on the floor to eat it. This is a private ceremony and it counts.',
+    isNew: false,
+  },
+  {
+    id: 'q14', house: 'folly',
+    title: 'The Portrait Session',
+    body: 'You have five minutes each. Draw each other\'s portrait using only what is at hand — biro, pencil, the back of an envelope. Present your work with full solemnity. Frame it mentally. Move on.',
+    isNew: false,
+  },
+  {
+    id: 'q15', house: 'devotion',
+    title: 'The Gratitude That Costs',
+    body: 'Thank each other for something that was hard to give — patience on a difficult day, grace in a moment of frustration. Acknowledge the effort behind it, not just the result.',
+    isNew: false,
+  },
+  {
+    id: 'q16', house: 'longing',
+    title: 'The Photograph You Love',
+    body: 'Each find a photograph of yourselves from before you met. Show each other. Tell the story of where you were, who took it, what you wanted then.',
+    isNew: false,
+  },
+  {
+    id: 'q17', house: 'stillness',
+    title: 'The Hour With No Task',
+    body: 'Sit together with no task between you. If one of you reaches for their phone, the other places a hand gently on the wrist. No penalty. Only noticing.',
+    isNew: false,
+  },
+  {
+    id: 'q18', house: 'hunger',
+    title: 'Something You Have Never Ordered',
+    body: 'Order one dish from a cuisine neither of you knows well. Eat it at the table with real plates. Speculate wildly about the ingredients.',
+    isNew: false,
+  },
+  {
+    id: 'q19', house: 'folly',
+    title: 'The Argument You Never Had',
+    body: 'Pick a genuinely low-stakes disagreement — pineapple on pizza, film rankings, something trivial — and debate it as though it matters enormously. No stakes. Only the pleasure of a clean disagreement.',
+    isNew: false,
+  },
+  {
+    id: 'q20', house: 'devotion',
+    title: 'Keepers of the Small Things',
+    body: 'Each name three small things about daily life together that you would not want to give up. Not the large things — the rituals, the habits, the textures. The ones that will not make it into any eulogy.',
+    isNew: false,
+  },
+];

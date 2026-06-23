@@ -1,0 +1,32 @@
+.nav {
+  display: flex;
+  border-top: 1px solid rgba(121, 80, 31, 0.2);
+  background: var(--ink);
+  flex-shrink: 0;
+}
+
+.tab {
+  flex: 1;
+  background: none;
+  border: none;
+  color: var(--vellum);
+  opacity: 0.3;
+  font-family: var(--font-display);
+  font-variant: small-caps;
+  font-size: 12px;
+  letter-spacing: 0.18em;
+  padding: 14px 0;
+  cursor: pointer;
+  transition: opacity 0.2s;
+}
+
+.tab:hover {
+  opacity: 0.55;
+}
+
+.tab.active {
+  opacity: 1;
+  color: var(--ember);
+  border-top: 1px solid var(--bronze);
+  margin-top: -1px;
+}

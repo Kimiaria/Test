@@ -1,0 +1,96 @@
+/* ── App shell ─────────────────────────────────────────── */
+.app-shell {
+  display: flex;
+  flex-direction: column;
+  height: 100dvh;
+  max-width: 480px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.app-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px 20px 14px;
+  border-bottom: 1px solid rgba(121, 80, 31, 0.15);
+  flex-shrink: 0;
+}
+
+.app-title {
+  font-family: var(--font-display);
+  font-style: italic;
+  font-size: 18px;
+  font-weight: 400;
+  letter-spacing: 0.06em;
+  color: var(--vellum);
+  opacity: 0.7;
+}
+
+.sync-btn {
+  background: none;
+  border: 1px solid rgba(121, 80, 31, 0.3);
+  color: var(--bronze);
+  font-size: 16px;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: border-color 0.2s;
+  line-height: 1;
+}
+
+.sync-btn:hover {
+  border-color: var(--bronze);
+}
+
+.app-main {
+  flex: 1;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+/* ── Draw prompt (no active quest) ─────────────────────── */
+.draw-prompt {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 32px;
+  padding: 48px 24px;
+}
+
+.draw-prompt-text {
+  font-family: var(--font-display);
+  font-style: italic;
+  font-size: 20px;
+  color: var(--vellum);
+  opacity: 0.5;
+  text-align: center;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+}
+
+.draw-btn {
+  background: none;
+  border: 1px solid var(--bronze);
+  color: var(--vellum);
+  font-family: var(--font-display);
+  font-style: italic;
+  font-size: 18px;
+  letter-spacing: 0.08em;
+  padding: 14px 32px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background 0.2s, color 0.2s;
+}
+
+.draw-btn:hover {
+  background: rgba(121, 80, 31, 0.1);
+  color: var(--ember);
+}

@@ -1,0 +1,170 @@
+.wrap {
+  display: flex;
+  flex-direction: column;
+  padding: 32px 24px 48px;
+  gap: 24px;
+  flex: 1;
+  overflow-y: auto;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.sealSmall {
+  width: 44px;
+  height: 44px;
+  object-fit: cover;
+  border-radius: 50%;
+  box-shadow: 0 1px 6px rgba(0,0,0,0.5);
+}
+
+.houseName {
+  font-family: var(--font-display);
+  font-variant: small-caps;
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 0.2em;
+  color: var(--house-accent, var(--bronze));
+  opacity: 0.85;
+}
+
+.title {
+  font-family: var(--font-display);
+  font-style: italic;
+  font-size: 34px;
+  font-weight: 600;
+  line-height: 1.2;
+  color: var(--vellum);
+  letter-spacing: 0.01em;
+}
+
+.dividerRow {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.rule {
+  flex: 1;
+  height: 1px;
+  background: var(--bronze);
+  opacity: 0.4;
+}
+
+.diamond {
+  font-size: 8px;
+  color: var(--bronze);
+  opacity: 0.6;
+}
+
+.body {
+  font-family: var(--font-body);
+  font-size: 18px;
+  line-height: 1.7;
+  color: var(--vellum);
+  opacity: 0.85;
+}
+
+/* ── Proof section ─────────────────────────────────────── */
+.proof {
+  border: 1px solid rgba(121, 80, 31, 0.25);
+  border-radius: 4px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 8px;
+}
+
+.proofLabel {
+  font-family: var(--font-display);
+  font-variant: small-caps;
+  font-size: 11px;
+  letter-spacing: 0.2em;
+  color: var(--bronze);
+  opacity: 0.7;
+}
+
+.proofHint {
+  font-size: 14px;
+  color: var(--vellum);
+  opacity: 0.45;
+  font-style: italic;
+  line-height: 1.5;
+}
+
+.uploadBtn {
+  background: none;
+  border: 1px solid rgba(121, 80, 31, 0.4);
+  color: var(--bronze);
+  font-family: var(--font-display);
+  font-style: italic;
+  font-size: 15px;
+  letter-spacing: 0.08em;
+  padding: 10px 20px;
+  border-radius: 3px;
+  cursor: pointer;
+  align-self: flex-start;
+  transition: border-color 0.2s, color 0.2s;
+}
+
+.uploadBtn:hover {
+  border-color: var(--bronze);
+  color: var(--ember);
+}
+
+.photoWrap {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  align-items: flex-start;
+}
+
+.photo {
+  width: 100%;
+  max-height: 220px;
+  object-fit: cover;
+  border-radius: 3px;
+  border: 1px solid rgba(121, 80, 31, 0.3);
+}
+
+.clearBtn {
+  background: none;
+  border: none;
+  color: var(--vellum);
+  opacity: 0.35;
+  font-family: var(--font-body);
+  font-style: italic;
+  font-size: 13px;
+  cursor: pointer;
+  padding: 0;
+  text-decoration: underline;
+}
+
+/* ── Complete button ───────────────────────────────────── */
+.completeBtn {
+  margin-top: auto;
+  padding: 14px 24px;
+  background: var(--oxblood);
+  border: 1px solid rgba(181, 131, 47, 0.3);
+  color: var(--vellum);
+  font-family: var(--font-display);
+  font-style: italic;
+  font-size: 18px;
+  letter-spacing: 0.06em;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background 0.2s, opacity 0.2s;
+}
+
+.completeBtn:hover {
+  background: #5c2a18;
+}
+
+.completeBtn.completing {
+  opacity: 0.5;
+  cursor: default;
+}
