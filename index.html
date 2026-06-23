@@ -1,0 +1,533 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alcock Studios | Designed Technology</title>
+    <meta name="description" content="Alcock Studios is a full-service creative and technology studio specialising in brand identity, web design, SEO, and e-commerce. 10+ years of experience. Get a free quote today.">
+    <meta property="og:title" content="Alcock Studios | Designed Technology">
+    <meta property="og:description" content="Brand. Web. Tech. We build businesses that look great and perform better.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://alcockstudios.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600;700&family=Playfair+Display:ital,wght@0,700;0,900;1,700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- ═══════════════ NAVIGATION ═══════════════ -->
+    <nav class="nav" id="nav">
+        <div class="nav__inner">
+            <a href="#home" class="nav__logo">
+                <span class="nav__logo-script">Alcock</span>
+                <span class="nav__logo-word">STUDIOS</span>
+            </a>
+            <ul class="nav__links" id="navLinks">
+                <li><a href="#services" class="nav__link">Services</a></li>
+                <li><a href="#work" class="nav__link">Work</a></li>
+                <li><a href="#about" class="nav__link">About</a></li>
+                <li><a href="#quote" class="btn btn--nav">Get a Free Quote</a></li>
+            </ul>
+            <button class="nav__burger" id="burger" aria-label="Open menu">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+        <div class="nav__mobile" id="mobileMenu">
+            <a href="#services" class="nav__mobile-link">Services</a>
+            <a href="#work" class="nav__mobile-link">Work</a>
+            <a href="#about" class="nav__mobile-link">About</a>
+            <a href="#quote" class="btn btn--primary nav__mobile-cta">Get a Free Quote</a>
+        </div>
+    </nav>
+
+    <!-- ═══════════════ HERO ═══════════════ -->
+    <section class="hero" id="home">
+        <div class="hero__bg-text" aria-hidden="true">STUDIOS</div>
+
+        <!-- Botanical left -->
+        <div class="hero__botanical hero__botanical--left" aria-hidden="true">
+            <svg viewBox="0 0 140 520" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M70 510 C70 400 55 310 45 220 C35 140 25 70 10 10" stroke="#1E2D12" stroke-width="2" stroke-linecap="round"/>
+                <path d="M60 440 C35 420 5 415 -8 395 C5 372 38 382 60 440Z" fill="#3D5225" stroke="#1E2D12" stroke-width="1"/>
+                <path d="M55 380 C75 352 112 342 128 320 C110 310 74 325 55 380Z" fill="#4A6030" stroke="#1E2D12" stroke-width="1"/>
+                <path d="M50 305 C28 282 -4 275 -16 254 C-2 236 30 250 50 305Z" fill="#3D5225" stroke="#1E2D12" stroke-width="1"/>
+                <path d="M46 235 C66 205 100 193 116 172 C100 162 66 178 46 235Z" fill="#4A6030" stroke="#1E2D12" stroke-width="1"/>
+                <path d="M42 165 C22 142 -5 135 -17 115 C-4 98 26 112 42 165Z" fill="#3D5225" stroke="#1E2D12" stroke-width="1"/>
+                <path d="M30 90 C45 65 72 55 84 38 C70 30 44 44 30 90Z" fill="#4A6030" stroke="#1E2D12" stroke-width="1"/>
+                <path d="M60 440 C42 426 10 415 -8 395" stroke="#1E2D12" stroke-width="0.6" opacity="0.4"/>
+                <path d="M55 380 C72 356 105 345 128 320" stroke="#1E2D12" stroke-width="0.6" opacity="0.4"/>
+                <path d="M50 305 C30 285 -1 278 -16 254" stroke="#1E2D12" stroke-width="0.6" opacity="0.4"/>
+                <path d="M46 235 C63 208 97 196 116 172" stroke="#1E2D12" stroke-width="0.6" opacity="0.4"/>
+            </svg>
+        </div>
+
+        <!-- Botanical right -->
+        <div class="hero__botanical hero__botanical--right" aria-hidden="true">
+            <svg viewBox="0 0 140 420" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M60 410 C65 320 80 240 90 160 C100 90 110 45 128 5" stroke="#1E2D12" stroke-width="2" stroke-linecap="round"/>
+                <path d="M65 350 C88 330 118 325 132 305 C118 285 88 298 65 350Z" fill="#3D5225" stroke="#1E2D12" stroke-width="1"/>
+                <path d="M72 285 C48 262 16 255 2 232 C18 216 50 228 72 285Z" fill="#4A6030" stroke="#1E2D12" stroke-width="1"/>
+                <path d="M78 218 C100 190 132 180 148 158 C130 148 100 162 78 218Z" fill="#3D5225" stroke="#1E2D12" stroke-width="1"/>
+                <path d="M85 150 C62 128 32 120 18 100 C34 84 62 96 85 150Z" fill="#4A6030" stroke="#1E2D12" stroke-width="1"/>
+                <path d="M95 80 C115 58 140 48 152 30 C138 20 112 36 95 80Z" fill="#3D5225" stroke="#1E2D12" stroke-width="1"/>
+                <path d="M65 350 C86 332 116 328 132 305" stroke="#1E2D12" stroke-width="0.6" opacity="0.4"/>
+                <path d="M72 285 C52 264 18 258 2 232" stroke="#1E2D12" stroke-width="0.6" opacity="0.4"/>
+            </svg>
+        </div>
+
+        <div class="hero__content">
+            <span class="hero__eyebrow">Welcome to Alcock Studios</span>
+            <h1 class="hero__title">
+                <span class="hero__script">Designed</span>
+                <span class="hero__display">TECHNOLOGY</span>
+            </h1>
+            <p class="hero__sub">A husband-and-wife studio with 10+ years crafting brands, websites, and digital experiences that work as beautifully as they look.</p>
+            <div class="hero__actions">
+                <a href="#quote" class="btn btn--primary">Get a Free Quote</a>
+                <a href="#work" class="btn btn--ghost">View Our Work</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ═══════════════ STATS ═══════════════ -->
+    <div class="stats">
+        <div class="container">
+            <div class="stats__grid">
+                <div class="stats__item">
+                    <span class="stats__num">10+</span>
+                    <span class="stats__lbl">Years Experience</span>
+                </div>
+                <div class="stats__item">
+                    <span class="stats__num">100+</span>
+                    <span class="stats__lbl">Projects Delivered</span>
+                </div>
+                <div class="stats__item">
+                    <span class="stats__num">50+</span>
+                    <span class="stats__lbl">Happy Clients</span>
+                </div>
+                <div class="stats__item">
+                    <span class="stats__num">5★</span>
+                    <span class="stats__lbl">Average Rating</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ═══════════════ SERVICES ═══════════════ -->
+    <section class="services" id="services">
+        <div class="container">
+            <div class="section-head">
+                <span class="eyebrow">What We Do</span>
+                <h2 class="section-title">
+                    <em class="script-inline">Services</em> Built for Growth
+                </h2>
+                <p class="section-sub">From first impression to final click — we handle every layer of your brand and digital presence.</p>
+            </div>
+            <div class="services__grid">
+
+                <div class="service-card reveal">
+                    <div class="service-card__icon">
+                        <svg viewBox="0 0 48 48" fill="none"><circle cx="24" cy="24" r="20" stroke="currentColor" stroke-width="1.5"/><circle cx="24" cy="24" r="8" fill="currentColor" opacity="0.2"/><path d="M24 4 L24 8M24 40 L24 44M4 24 L8 24M40 24 L44 24" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/><path d="M16 16 Q24 12 32 16 Q36 24 32 32 Q24 36 16 32 Q12 24 16 16Z" stroke="currentColor" stroke-width="1.2" fill="none"/></svg>
+                    </div>
+                    <h3 class="service-card__title">Brand Identity</h3>
+                    <p class="service-card__desc">Strategic brand development that gives your business a voice, a look, and a story customers connect with.</p>
+                    <a href="#quote" class="service-card__link">Get Started →</a>
+                </div>
+
+                <div class="service-card reveal">
+                    <div class="service-card__icon">
+                        <svg viewBox="0 0 48 48" fill="none"><path d="M10 38 L24 8 L38 38" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/><path d="M15 28 L33 28" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/><circle cx="24" cy="8" r="3" fill="currentColor" opacity="0.3"/></svg>
+                    </div>
+                    <h3 class="service-card__title">Logo &amp; Visual Design</h3>
+                    <p class="service-card__desc">Memorable logos and advertising collateral that make a lasting first impression across every channel.</p>
+                    <a href="#quote" class="service-card__link">Get Started →</a>
+                </div>
+
+                <div class="service-card reveal">
+                    <div class="service-card__icon">
+                        <svg viewBox="0 0 48 48" fill="none"><rect x="6" y="10" width="36" height="28" rx="4" stroke="currentColor" stroke-width="1.5"/><path d="M16 38 L32 38M24 38 L24 44" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/><path d="M14 22 L20 26 L26 20 L34 28" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                    </div>
+                    <h3 class="service-card__title">Website Design &amp; Dev</h3>
+                    <p class="service-card__desc">Mobile-first, fast-loading websites designed to impress visitors and convert them into customers.</p>
+                    <a href="#quote" class="service-card__link">Get Started →</a>
+                </div>
+
+                <div class="service-card reveal">
+                    <div class="service-card__icon">
+                        <svg viewBox="0 0 48 48" fill="none"><circle cx="20" cy="20" r="12" stroke="currentColor" stroke-width="1.5"/><path d="M30 30 L42 42" stroke="currentColor" stroke-width="2" stroke-linecap="round"/><path d="M16 20 L20 24 L26 16" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                    </div>
+                    <h3 class="service-card__title">Search Engine Optimisation</h3>
+                    <p class="service-card__desc">Get found by the right people. We build SEO strategies that drive consistent, qualified traffic to your site.</p>
+                    <a href="#quote" class="service-card__link">Get Started →</a>
+                </div>
+
+                <div class="service-card reveal">
+                    <div class="service-card__icon">
+                        <svg viewBox="0 0 48 48" fill="none"><rect x="8" y="14" width="32" height="22" rx="3" stroke="currentColor" stroke-width="1.5"/><path d="M18 36 L18 40 L30 40 L30 36" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/><path d="M20 22 L28 22M20 27 L25 27" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/><circle cx="36" cy="36" r="6" fill="#8E9B72" stroke="currentColor" stroke-width="1.2"/><path d="M34 36 L35.5 37.5 L38 35" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                    </div>
+                    <h3 class="service-card__title">E-Commerce Solutions</h3>
+                    <p class="service-card__desc">Bring your storefront online with a seamless shopping experience that turns browsers into buyers.</p>
+                    <a href="#quote" class="service-card__link">Get Started →</a>
+                </div>
+
+                <div class="service-card reveal">
+                    <div class="service-card__icon">
+                        <svg viewBox="0 0 48 48" fill="none"><path d="M24 6 L28 16 L38 14 L32 22 L38 30 L28 28 L24 38 L20 28 L10 30 L16 22 L10 14 L20 16 Z" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/><circle cx="24" cy="22" r="4" fill="currentColor" opacity="0.2"/></svg>
+                    </div>
+                    <h3 class="service-card__title">IT &amp; Tech Consulting</h3>
+                    <p class="service-card__desc">Practical technology solutions for real business problems. We build things that actually work.</p>
+                    <a href="#quote" class="service-card__link">Get Started →</a>
+                </div>
+
+            </div>
+            <div class="center-cta">
+                <a href="#quote" class="btn btn--primary">Get a Free Quote</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ═══════════════ ABOUT ═══════════════ -->
+    <section class="about" id="about">
+        <div class="about__botanical" aria-hidden="true">
+            <svg viewBox="0 0 180 300" fill="none"><path d="M90 290 C90 220 75 160 65 100 C58 60 48 28 30 5" stroke="#B5C89A" stroke-width="2" stroke-linecap="round"/><path d="M80 240 C55 220 22 215 5 195 C20 175 52 185 80 240Z" fill="#8E9B72" stroke="#B5C89A" stroke-width="1"/><path d="M76 185 C96 158 128 148 144 128 C126 118 95 132 76 185Z" fill="#A3B485" stroke="#B5C89A" stroke-width="1"/><path d="M70 128 C48 106 16 100 2 78 C18 62 48 76 70 128Z" fill="#8E9B72" stroke="#B5C89A" stroke-width="1"/><path d="M60 70 C76 48 104 38 116 20 C102 12 76 26 60 70Z" fill="#A3B485" stroke="#B5C89A" stroke-width="1"/></svg>
+        </div>
+        <div class="container">
+            <div class="about__grid">
+                <div class="about__text reveal">
+                    <span class="eyebrow">Our Story</span>
+                    <h2 class="section-title">Built from <em class="script-inline">Passion</em> &amp; <em class="script-inline">Purpose</em></h2>
+                    <p>We are a husband-and-wife team with over a decade of combined experience across media, IT, and brand design. Alcock Studios was born from a simple belief: businesses deserve work that is both beautiful and functional.</p>
+                    <p>We don't do cookie-cutter. Every project is built with intention — starting with your goals and working backwards to create something that truly serves your business.</p>
+                    <div class="about__values">
+                        <div class="about__value">
+                            <span class="about__value-icon">✦</span>
+                            <div>
+                                <strong>Designed for results</strong>
+                                <span>Every decision is tied to your business goals.</span>
+                            </div>
+                        </div>
+                        <div class="about__value">
+                            <span class="about__value-icon">✦</span>
+                            <div>
+                                <strong>Built to last</strong>
+                                <span>We don't chase trends — we build timeless brands.</span>
+                            </div>
+                        </div>
+                        <div class="about__value">
+                            <span class="about__value-icon">✦</span>
+                            <div>
+                                <strong>Personal service</strong>
+                                <span>You work directly with us — no handoffs, no middlemen.</span>
+                            </div>
+                        </div>
+                    </div>
+                    <a href="#quote" class="btn btn--primary">Work With Us</a>
+                </div>
+                <div class="about__visual reveal">
+                    <div class="about__card">
+                        <div class="about__card-bg"></div>
+                        <div class="about__card-content">
+                            <div class="about__stat-row">
+                                <div class="about__stat">
+                                    <span class="about__stat-num">10+</span>
+                                    <span class="about__stat-lbl">Years in business</span>
+                                </div>
+                                <div class="about__stat">
+                                    <span class="about__stat-num">2</span>
+                                    <span class="about__stat-lbl">Dedicated founders</span>
+                                </div>
+                            </div>
+                            <p class="about__card-quote">"We focus on creating things that actually work and look good — because you shouldn't have to choose."</p>
+                            <span class="about__card-sig">— The Alcock Studios Team</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ═══════════════ PROCESS ═══════════════ -->
+    <section class="process" id="process">
+        <div class="container">
+            <div class="section-head section-head--light">
+                <span class="eyebrow eyebrow--light">How It Works</span>
+                <h2 class="section-title section-title--light">From <em class="script-inline">Idea</em> to Launch</h2>
+                <p class="section-sub section-sub--light">A simple, transparent process designed to get you results without the stress.</p>
+            </div>
+            <div class="process__steps">
+                <div class="process__step reveal">
+                    <div class="process__num">01</div>
+                    <div class="process__body">
+                        <h3>Discovery &amp; Strategy</h3>
+                        <p>We start by getting to know you, your business, your goals, and your audience. This shapes everything that follows.</p>
+                    </div>
+                </div>
+                <div class="process__divider" aria-hidden="true">
+                    <svg viewBox="0 0 60 20" fill="none"><path d="M0 10 Q15 2 30 10 Q45 18 60 10" stroke="#B5C89A" stroke-width="1.5" stroke-linecap="round"/></svg>
+                </div>
+                <div class="process__step reveal">
+                    <div class="process__num">02</div>
+                    <div class="process__body">
+                        <h3>Design &amp; Build</h3>
+                        <p>We craft your brand, website, or campaign with precision — always keeping your end customer at the centre of every decision.</p>
+                    </div>
+                </div>
+                <div class="process__divider" aria-hidden="true">
+                    <svg viewBox="0 0 60 20" fill="none"><path d="M0 10 Q15 2 30 10 Q45 18 60 10" stroke="#B5C89A" stroke-width="1.5" stroke-linecap="round"/></svg>
+                </div>
+                <div class="process__step reveal">
+                    <div class="process__num">03</div>
+                    <div class="process__body">
+                        <h3>Launch &amp; Grow</h3>
+                        <p>We launch your project and stay by your side — refining, optimising, and helping your business grow over the long term.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="center-cta">
+                <a href="#quote" class="btn btn--light">Get Your Free Quote</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ═══════════════ WORK / PORTFOLIO ═══════════════ -->
+    <section class="work" id="work">
+        <div class="container">
+            <div class="section-head">
+                <span class="eyebrow">Our Work</span>
+                <h2 class="section-title">Recent <em class="script-inline">Projects</em></h2>
+                <p class="section-sub">A selection of brands and digital experiences we've built from the ground up.</p>
+            </div>
+            <div class="work__grid">
+
+                <div class="work-card reveal">
+                    <div class="work-card__img work-card__img--1">
+                        <span class="work-card__tag">Brand Identity</span>
+                    </div>
+                    <div class="work-card__body">
+                        <h3>Project Placeholder</h3>
+                        <p>Full brand identity — logo, colour palette, typography, and brand guidelines for a local business launch.</p>
+                    </div>
+                </div>
+
+                <div class="work-card reveal">
+                    <div class="work-card__img work-card__img--2">
+                        <span class="work-card__tag">Web Design</span>
+                    </div>
+                    <div class="work-card__body">
+                        <h3>Project Placeholder</h3>
+                        <p>Mobile-first website with SEO optimisation and integrated booking system, increasing enquiries by 40%.</p>
+                    </div>
+                </div>
+
+                <div class="work-card reveal">
+                    <div class="work-card__img work-card__img--3">
+                        <span class="work-card__tag">E-Commerce</span>
+                    </div>
+                    <div class="work-card__body">
+                        <h3>Project Placeholder</h3>
+                        <p>Online store built from scratch with product photography, copy, and an SEO-led launch strategy.</p>
+                    </div>
+                </div>
+
+                <div class="work-card reveal">
+                    <div class="work-card__img work-card__img--4">
+                        <span class="work-card__tag">SEO &amp; Growth</span>
+                    </div>
+                    <div class="work-card__body">
+                        <h3>Project Placeholder</h3>
+                        <p>12-month SEO campaign that tripled organic traffic and moved the client to page 1 for 15 key search terms.</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ═══════════════ TESTIMONIALS ═══════════════ -->
+    <section class="testimonials" id="testimonials">
+        <div class="testimonials__botanical" aria-hidden="true">
+            <svg viewBox="0 0 120 280" fill="none"><path d="M60 270 C60 200 48 140 40 85 C34 48 26 20 12 2" stroke="#3D5225" stroke-width="1.8" stroke-linecap="round"/><path d="M54 220 C34 202 8 197 -4 178 C8 160 36 168 54 220Z" fill="#6B7A52" stroke="#3D5225" stroke-width="0.8"/><path d="M50 165 C68 140 96 132 110 112 C94 104 66 116 50 165Z" fill="#7A8A60" stroke="#3D5225" stroke-width="0.8"/><path d="M45 110 C26 90 0 84 -12 65 C2 50 28 62 45 110Z" fill="#6B7A52" stroke="#3D5225" stroke-width="0.8"/><path d="M38 55 C52 34 76 25 87 10 C74 3 52 15 38 55Z" fill="#7A8A60" stroke="#3D5225" stroke-width="0.8"/></svg>
+        </div>
+        <div class="container">
+            <div class="section-head">
+                <span class="eyebrow">Kind Words</span>
+                <h2 class="section-title">What Clients <em class="script-inline">Say</em></h2>
+            </div>
+            <div class="testimonials__grid">
+
+                <div class="testi-card reveal">
+                    <div class="testi-card__stars">★★★★★</div>
+                    <blockquote class="testi-card__quote">"Alcock Studios completely transformed how our brand looks and feels online. Our enquiries doubled within three months of the new site going live."</blockquote>
+                    <div class="testi-card__author">
+                        <div class="testi-card__avatar">S</div>
+                        <div>
+                            <strong>Sarah M.</strong>
+                            <span>Small Business Owner</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testi-card reveal">
+                    <div class="testi-card__stars">★★★★★</div>
+                    <blockquote class="testi-card__quote">"Working with this team was seamless from start to finish. They genuinely understood what we needed and delivered something beyond our expectations."</blockquote>
+                    <div class="testi-card__author">
+                        <div class="testi-card__avatar">J</div>
+                        <div>
+                            <strong>James R.</strong>
+                            <span>E-Commerce Founder</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testi-card reveal">
+                    <div class="testi-card__stars">★★★★★</div>
+                    <blockquote class="testi-card__quote">"The SEO work alone paid for itself in the first month. I now rank on page one for every term that matters to my business. Incredible results."</blockquote>
+                    <div class="testi-card__author">
+                        <div class="testi-card__avatar">L</div>
+                        <div>
+                            <strong>Lisa T.</strong>
+                            <span>Service Business Owner</span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ═══════════════ QUOTE FORM ═══════════════ -->
+    <section class="quote-section" id="quote">
+        <div class="quote-section__botanical" aria-hidden="true">
+            <svg viewBox="0 0 160 360" fill="none"><path d="M80 350 C80 270 65 195 55 125 C46 65 36 28 18 5" stroke="#4A6030" stroke-width="2" stroke-linecap="round"/><path d="M70 295 C46 275 14 270 0 249 C14 228 46 240 70 295Z" fill="#3D5225" stroke="#4A6030" stroke-width="1"/><path d="M65 230 C84 202 118 192 132 170 C115 160 82 174 65 230Z" fill="#4A6030" stroke="#3D5225" stroke-width="1"/><path d="M60 165 C40 144 10 138 -4 116 C12 100 40 114 60 165Z" fill="#3D5225" stroke="#4A6030" stroke-width="1"/><path d="M52 100 C68 78 96 68 108 50 C94 42 68 56 52 100Z" fill="#4A6030" stroke="#3D5225" stroke-width="1"/><path d="M38 45 C52 26 74 18 84 5 C72 -2 52 10 38 45Z" fill="#3D5225" stroke="#4A6030" stroke-width="1"/></svg>
+        </div>
+        <div class="container">
+            <div class="quote-section__inner">
+                <div class="quote-section__head">
+                    <span class="eyebrow eyebrow--light">Let's Talk</span>
+                    <h2 class="section-title section-title--light">Get a <em class="script-inline">Free</em> Quote</h2>
+                    <p class="section-sub section-sub--light">Tell us about your project and we'll come back to you within 24 hours with ideas and a no-obligation quote.</p>
+                </div>
+
+                <!-- To activate this form: replace YOUR_FORM_ID with your Formspree form ID from formspree.io -->
+                <form class="quote-form" id="quoteForm" action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+                    <div class="quote-form__row">
+                        <div class="form-group">
+                            <label for="name">Full Name *</label>
+                            <input type="text" id="name" name="name" placeholder="Your name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email Address *</label>
+                            <input type="email" id="email" name="email" placeholder="you@example.com" required>
+                        </div>
+                    </div>
+                    <div class="quote-form__row">
+                        <div class="form-group">
+                            <label for="phone">Phone Number</label>
+                            <input type="tel" id="phone" name="phone" placeholder="+1 (000) 000-0000">
+                        </div>
+                        <div class="form-group">
+                            <label for="service">Service Interested In *</label>
+                            <select id="service" name="service" required>
+                                <option value="" disabled selected>Select a service</option>
+                                <option>Brand Identity</option>
+                                <option>Logo &amp; Visual Design</option>
+                                <option>Website Design &amp; Development</option>
+                                <option>Search Engine Optimisation</option>
+                                <option>E-Commerce Solutions</option>
+                                <option>IT &amp; Tech Consulting</option>
+                                <option>Multiple / Not Sure</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="budget">Approximate Budget</label>
+                        <select id="budget" name="budget">
+                            <option value="" disabled selected>Select a range</option>
+                            <option>Under $500</option>
+                            <option>$500 – $1,500</option>
+                            <option>$1,500 – $5,000</option>
+                            <option>$5,000 – $10,000</option>
+                            <option>$10,000+</option>
+                            <option>Not Sure Yet</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Tell Us About Your Project *</label>
+                        <textarea id="message" name="message" rows="5" placeholder="What do you need help with? What are your goals? Any deadlines?" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn--light btn--full">Send My Quote Request</button>
+                    <p class="quote-form__note">We respond within 24 hours. No obligation, no pushy sales.</p>
+                </form>
+
+                <div class="quote-form__success" id="formSuccess">
+                    <div class="quote-form__success-icon">✓</div>
+                    <h3>Message Received!</h3>
+                    <p>Thank you — we'll be in touch within 24 hours.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ═══════════════ FOOTER ═══════════════ -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__grid">
+                <div class="footer__brand">
+                    <a href="#home" class="footer__logo">
+                        <span class="footer__logo-script">Alcock</span>
+                        <span class="footer__logo-word">STUDIOS</span>
+                    </a>
+                    <p class="footer__tagline">Designed Technology</p>
+                    <p class="footer__bio">A husband-and-wife creative and technology studio helping businesses look great and grow online.</p>
+                </div>
+                <div class="footer__col">
+                    <h4 class="footer__heading">Services</h4>
+                    <ul>
+                        <li><a href="#services">Brand Identity</a></li>
+                        <li><a href="#services">Logo &amp; Visual Design</a></li>
+                        <li><a href="#services">Website Design</a></li>
+                        <li><a href="#services">SEO</a></li>
+                        <li><a href="#services">E-Commerce</a></li>
+                        <li><a href="#services">IT Consulting</a></li>
+                    </ul>
+                </div>
+                <div class="footer__col">
+                    <h4 class="footer__heading">Company</h4>
+                    <ul>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#work">Our Work</a></li>
+                        <li><a href="#process">Process</a></li>
+                        <li><a href="#testimonials">Testimonials</a></li>
+                        <li><a href="#quote">Get a Quote</a></li>
+                    </ul>
+                </div>
+                <div class="footer__col">
+                    <h4 class="footer__heading">Get in Touch</h4>
+                    <ul class="footer__contact">
+                        <li><a href="mailto:hello@alcockstudios.com">hello@alcockstudios.com</a></li>
+                        <li><a href="https://alcockstudios.com">alcockstudios.com</a></li>
+                    </ul>
+                    <div class="footer__social">
+                        <a href="#" class="footer__social-link" aria-label="Instagram">
+                            <svg viewBox="0 0 24 24" fill="none"><rect x="2" y="2" width="20" height="20" rx="5" stroke="currentColor" stroke-width="1.5"/><circle cx="12" cy="12" r="5" stroke="currentColor" stroke-width="1.5"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor"/></svg>
+                        </a>
+                        <a href="#" class="footer__social-link" aria-label="Facebook">
+                            <svg viewBox="0 0 24 24" fill="none"><path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                        </a>
+                        <a href="#" class="footer__social-link" aria-label="LinkedIn">
+                            <svg viewBox="0 0 24 24" fill="none"><rect x="2" y="2" width="20" height="20" rx="4" stroke="currentColor" stroke-width="1.5"/><path d="M7 10v7M7 7v.01M12 17v-4a2 2 0 014 0v4M12 10v7" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer__bottom">
+                <p>© <span id="year"></span> Alcock Studios. All rights reserved.</p>
+                <p>Designed with intention. Built to perform.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
